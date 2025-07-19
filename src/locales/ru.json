@@ -1,0 +1,13 @@
+{
+  "welcome": "Добро пожаловать",
+  "profile": {
+    "title": "Профиль",
+    "description": "Пользователь"
+  },
+  "menu": {
+    "Games": "Игры",
+    "roulette": "Рулетка",
+    "inventory": "Инвентарь",
+    "profile": "Профиль"
+  }
+}
