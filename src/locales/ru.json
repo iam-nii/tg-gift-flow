@@ -5,7 +5,7 @@
     "description": "Пользователь"
   },
   "menu": {
-    "Games": "Игры",
+    "games": "Игры",
     "roulette": "Рулетка",
     "inventory": "Инвентарь",
     "profile": "Профиль"

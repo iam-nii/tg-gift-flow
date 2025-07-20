@@ -1,6 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
-import UserProfile from "./pages/profile";
 import AppLayout from "./AppLayout";
+import Games from "./pages/games";
+import Inventory from "./pages/inventory";
+import Roulette from "./pages/roulette";
+import Profile from "./pages/profile";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -8,7 +12,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/profile",
-        element: <UserProfile />,
+        element: <Profile />,
+      },
+      {
+        path: "/games",
+        element: <Games />,
+      },
+      {
+        path: "/inventory",
+        element: <Inventory />,
+      },
+      {
+        path: "/roulette",
+        element: <Roulette />,
       },
     ],
   },

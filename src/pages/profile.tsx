@@ -1,7 +1,11 @@
 import { useEffect } from "react";
 function Profile() {
   useEffect(() => {}, []);
-  return <></>;
+  return (
+    <>
+      <div>Profile</div>
+    </>
+  );
 }
 
 export default Profile;

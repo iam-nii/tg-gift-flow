@@ -1,13 +1,13 @@
 {
-    "welcome": "Welcome",
-    "profile": {
-      "title": "Profile",
-      "description": "User"
-    },
-    "menu": {
-      "Games": "Games",
-      "roulette": "roulette",
-      "inventory": "inventory",
-      "profile": "Profile"
-    }
+  "welcome": "Welcome",
+  "profile": {
+    "title": "Profile",
+    "description": "User"
+  },
+  "menu": {
+    "games": "Games",
+    "roulette": "Roulette",
+    "inventory": "Inventory",
+    "profile": "Profile"
   }
+}
