@@ -8,7 +8,7 @@ function AppLayout() {
   const [currentPage, setCurrentPage] = useState<string>("games");
   return (
     <div className="min-h-screen flex flex-col">
-      <main className="flex-1 bg-slate-100">
+      <main className="flex-1 bg-slate-50">
         <Outlet />
       </main>
       {/* Fixed bottom nav bar */}
@@ -19,7 +19,7 @@ function AppLayout() {
         <Link
           to="/games"
           onClick={() => setCurrentPage("games")}
-          className={`flex flex-col justify-center items-center px-3 ${
+          className={`flex flex-col justify-center items-center px-3 w-20 ${
             currentPage == "games" && "bg-slate-900 text-white rounded-lg"
           }`}
         >
@@ -29,7 +29,7 @@ function AppLayout() {
         <Link
           to="/roulette"
           onClick={() => setCurrentPage("roulette")}
-          className={`flex flex-col justify-center items-center px-3
+          className={`flex flex-col justify-center items-center px-3 w-20
             ${currentPage == "roulette" && "bg-slate-900 text-white rounded-lg"}
             `}
         >
@@ -39,7 +39,7 @@ function AppLayout() {
         <Link
           to="/inventory"
           onClick={() => setCurrentPage("inventory")}
-          className={`flex flex-col justify-center items-center px-3 ${
+          className={`flex flex-col justify-center items-center px-3 w-20 ${
             currentPage == "inventory" && "bg-slate-900 text-white rounded-lg"
           }`}
         >
@@ -49,7 +49,7 @@ function AppLayout() {
         <Link
           to="/profile"
           onClick={() => setCurrentPage("profile")}
-          className={`flex flex-col justify-center items-center px-3 ${
+          className={`flex flex-col justify-center items-center px-3 w-20 ${
             currentPage == "profile" && "bg-slate-900 text-white rounded-lg"
           }`}
         >

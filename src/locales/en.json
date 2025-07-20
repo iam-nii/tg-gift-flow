@@ -4,6 +4,12 @@
     "title": "Profile",
     "description": "User"
   },
+  "game_h1": "Games",
+  "game_h2": " Choose a game to participate in",
+  "pvp_fight_h": "PVP Battle",
+  "pvp_fight_p": "Battle with other players in the roulette",
+  "coin_flip_h": "Coin Flip",
+  "coin_flip_p": "Coin flip 50/50",
   "menu": {
     "games": "Games",
     "roulette": "Roulette",
