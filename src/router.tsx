@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "./AppLayout";
-import Profile from "./pages/Profile";
 import Inventory from "./pages/Inventory";
 import Roulette from "./pages/Roulette";
 import Games from "./pages/Games";
+import Profile from "./pages/Profile";
 
 const router = createBrowserRouter([
   {
