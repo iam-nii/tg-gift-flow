@@ -8,7 +8,7 @@ function AppLayout() {
   const [currentPage, setCurrentPage] = useState<string>("games");
   return (
     <div className="min-h-screen flex flex-col">
-      <main className="flex-1">
+      <main className="flex-1 bg-slate-100">
         <Outlet />
       </main>
       {/* Fixed bottom nav bar */}
