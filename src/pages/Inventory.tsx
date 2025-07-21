@@ -121,13 +121,13 @@ function Inventory() {
             startIcon={<TrendingDown />}
             className="w-[95%]"
             sx={{
-              background: "#039e00",
               textTransform: "none",
+              background: "#039e00",
               color: "white",
-              fontSize: 18,
+              fontSize: 16,
               padding: 1,
               "& .MuiButton-startIcon": {
-                marginLeft: "0px", // or your desired value
+                marginLeft: "-30px", // or your desired value
                 // you can use px as well: marginRight: "12px",
                 // or negative: marginRight: "-4px",
               },
@@ -143,11 +143,16 @@ function Inventory() {
             sx={{
               textTransform: "none",
               background: "transparent",
-              border: "2px solid blue",
               color: "blue",
+              border: "2px solid blue",
               fontSize: 16,
               fontWeight: 100,
               padding: 1,
+              "& .MuiButton-startIcon": {
+                marginLeft: "-5px", // or your desired value
+                // you can use px as well: marginRight: "12px",
+                // or negative: marginRight: "-4px",
+              },
             }}
           >
             {`${t("inventory.sellGifts_btn2")} ${Math.floor(
