@@ -5,7 +5,7 @@ function Games() {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center h-[130vh]">
-      <h1 className="text-3xl font-bold mt-16">{t("game_h1")}</h1>
+      <h1 className="text-4xl font-bold mt-16">{t("game_h1")}</h1>
       <h2 className="font-thin text-xl text-slate-700 mt-5">{t("game_h2")}</h2>
 
       <div className="flex flex-col gap-5">

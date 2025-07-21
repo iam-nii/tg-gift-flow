@@ -2,7 +2,12 @@
   "welcome": "Welcome",
   "profile": {
     "title": "Profile",
-    "description": "User"
+    "description": "User",
+    "games_played": "Games played",
+    "winrate": "Win rate",
+    "games_won": "Games won",
+    "earned": "Earned",
+    "stars": "Stars"
   },
   "game_h1": "Games",
   "game_h2": " Choose a game to participate in",
@@ -15,5 +20,17 @@
     "roulette": "Roulette",
     "inventory": "Inventory",
     "profile": "Profile"
+  },
+  "inventory": {
+    "h1": "Inventory",
+    "h2": "Manage your gifts",
+    "div1_p1": "Total Value",
+    "div1_p2": "stars",
+    "sellGifts_h1": "Selected gifts",
+    "sellGifts_h2": "Total value",
+    "sellGifts_btn1": "Sell for",
+    "sellGifts_btn2": "Withdraw for",
+    "sellGifts_p1": "Sales replenish your in-game balance",
+    "sellGifts_p2": "Withdrawal sends gifts to telegram"
   }
 }
