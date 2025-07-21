@@ -94,7 +94,7 @@ function Inventory() {
                   <h1>{gift.name}</h1>
                   <Chip
                     label={`${gift.value} ${t("inventory.div1_p2")}`}
-                    className="w-24"
+                    className="w-28"
                     sx={{
                       fontSize: 16,
                     }}
@@ -126,6 +126,11 @@ function Inventory() {
               color: "white",
               fontSize: 18,
               padding: 1,
+              "& .MuiButton-startIcon": {
+                marginLeft: "0px", // or your desired value
+                // you can use px as well: marginRight: "12px",
+                // or negative: marginRight: "-4px",
+              },
             }}
           >
             {`${t("inventory.sellGifts_btn1")} ${Math.floor(
